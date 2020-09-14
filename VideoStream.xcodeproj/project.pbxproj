@@ -25,13 +25,13 @@
 		C70C7F66250EE414007F2377 /* VideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4E250EE414007F2377 /* VideoStream.swift */; };
 		C70C7F67250EE414007F2377 /* PublicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4F250EE414007F2377 /* PublicationData.swift */; };
 		C70C7F68250EE414007F2377 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F50250EE414007F2377 /* Sections.swift */; };
-		C70C7F69250EE414007F2377 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F52250EE414007F2377 /* PageControl.swift */; };
-		C70C7F6A250EE414007F2377 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F53250EE414007F2377 /* PageViewController.swift */; };
 		C70C7F75250EE4E8007F2377 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F72250EE4E8007F2377 /* VideoRow.swift */; };
 		C70C7F79250EE565007F2377 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F78250EE565007F2377 /* WebService.swift */; };
 		C70C7F7D250EE819007F2377 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F73250EE4E8007F2377 /* TabbedView.swift */; };
 		C70C7F7E250EE81B007F2377 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F74250EE4E8007F2377 /* VideoItem.swift */; };
 		C70C7F80250EE8F3007F2377 /* VideoStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F7F250EE8F3007F2377 /* VideoStreamView.swift */; };
+		C73D9C76250F50B000742835 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73D9C74250F50B000742835 /* PageControl.swift */; };
+		C73D9C77250F50B000742835 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73D9C75250F50B000742835 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,13 +75,13 @@
 		C70C7F4E250EE414007F2377 /* VideoStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStream.swift; sourceTree = "<group>"; };
 		C70C7F4F250EE414007F2377 /* PublicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicationData.swift; sourceTree = "<group>"; };
 		C70C7F50250EE414007F2377 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
-		C70C7F52250EE414007F2377 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		C70C7F53250EE414007F2377 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		C70C7F72250EE4E8007F2377 /* VideoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		C70C7F73250EE4E8007F2377 /* TabbedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		C70C7F74250EE4E8007F2377 /* VideoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
 		C70C7F78250EE565007F2377 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebService.swift; path = ../Model/WebService.swift; sourceTree = "<group>"; };
 		C70C7F7F250EE8F3007F2377 /* VideoStreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStreamView.swift; sourceTree = "<group>"; };
+		C73D9C74250F50B000742835 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		C73D9C75250F50B000742835 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 		C70C7EEE250E7A81007F2377 /* VideoStream */ = {
 			isa = PBXGroup;
 			children = (
+				C73D9C73250F50B000742835 /* UIKit View */,
 				C70C7F45250EE414007F2377 /* Model */,
-				C70C7F51250EE414007F2377 /* UIKit View */,
 				C70C7F39250EE414007F2377 /* View */,
 				C70C7F7A250EE5AC007F2377 /* Service */,
 				C70C7F6B250EE436007F2377 /* View Model */,
@@ -209,15 +209,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C70C7F51250EE414007F2377 /* UIKit View */ = {
-			isa = PBXGroup;
-			children = (
-				C70C7F52250EE414007F2377 /* PageControl.swift */,
-				C70C7F53250EE414007F2377 /* PageViewController.swift */,
-			);
-			path = "UIKit View";
-			sourceTree = "<group>";
-		};
 		C70C7F6B250EE436007F2377 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +223,15 @@
 				C70C7F78250EE565007F2377 /* WebService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		C73D9C73250F50B000742835 /* UIKit View */ = {
+			isa = PBXGroup;
+			children = (
+				C73D9C74250F50B000742835 /* PageControl.swift */,
+				C73D9C75250F50B000742835 /* PageViewController.swift */,
+			);
+			path = "UIKit View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +372,7 @@
 			files = (
 				C70C7F5A250EE414007F2377 /* VideoStreamViewModel.swift in Sources */,
 				C70C7F7E250EE81B007F2377 /* VideoItem.swift in Sources */,
+				C73D9C76250F50B000742835 /* PageControl.swift in Sources */,
 				C70C7F64250EE414007F2377 /* FeedMetaData.swift in Sources */,
 				C70C7F75250EE4E8007F2377 /* VideoRow.swift in Sources */,
 				C70C7F5E250EE414007F2377 /* MetaData.swift in Sources */,
@@ -379,12 +380,11 @@
 				C70C7F68250EE414007F2377 /* Sections.swift in Sources */,
 				C70C7F5B250EE414007F2377 /* PageView.swift in Sources */,
 				C70C7F79250EE565007F2377 /* WebService.swift in Sources */,
-				C70C7F69250EE414007F2377 /* PageControl.swift in Sources */,
 				C70C7F5F250EE414007F2377 /* MediaData.swift in Sources */,
 				C70C7F5C250EE414007F2377 /* AppDelegate.swift in Sources */,
 				C70C7F65250EE414007F2377 /* PagingData.swift in Sources */,
 				C70C7F80250EE8F3007F2377 /* VideoStreamView.swift in Sources */,
-				C70C7F6A250EE414007F2377 /* PageViewController.swift in Sources */,
+				C73D9C77250F50B000742835 /* PageViewController.swift in Sources */,
 				C70C7F5D250EE414007F2377 /* SceneDelegate.swift in Sources */,
 				C70C7F67250EE414007F2377 /* PublicationData.swift in Sources */,
 				C70C7F60250EE414007F2377 /* ItemData.swift in Sources */,
