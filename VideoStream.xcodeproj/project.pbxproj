@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C70C7EF0250E7A81007F2377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7EEF250E7A81007F2377 /* AppDelegate.swift */; };
-		C70C7EF2250E7A81007F2377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7EF1250E7A81007F2377 /* SceneDelegate.swift */; };
-		C70C7EF4250E7A81007F2377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7EF3250E7A81007F2377 /* ContentView.swift */; };
 		C70C7EF6250E7A82007F2377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70C7EF5250E7A82007F2377 /* Assets.xcassets */; };
 		C70C7EF9250E7A82007F2377 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70C7EF8250E7A82007F2377 /* Preview Assets.xcassets */; };
 		C70C7EFC250E7A82007F2377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70C7EFA250E7A82007F2377 /* LaunchScreen.storyboard */; };
 		C70C7F07250E7A82007F2377 /* VideoStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F06250E7A82007F2377 /* VideoStreamTests.swift */; };
 		C70C7F12250E7A83007F2377 /* VideoStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F11250E7A83007F2377 /* VideoStreamUITests.swift */; };
+		C70C7F21250E7B52007F2377 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C70C7F20250E7B52007F2377 /* KingfisherSwiftUI */; };
+		C70C7F5A250EE414007F2377 /* VideoStreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F40250EE414007F2377 /* VideoStreamViewModel.swift */; };
+		C70C7F5B250EE414007F2377 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F41250EE414007F2377 /* PageView.swift */; };
+		C70C7F5C250EE414007F2377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F43250EE414007F2377 /* AppDelegate.swift */; };
+		C70C7F5D250EE414007F2377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F44250EE414007F2377 /* SceneDelegate.swift */; };
+		C70C7F5E250EE414007F2377 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F46250EE414007F2377 /* MetaData.swift */; };
+		C70C7F5F250EE414007F2377 /* MediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F47250EE414007F2377 /* MediaData.swift */; };
+		C70C7F60250EE414007F2377 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F48250EE414007F2377 /* ItemData.swift */; };
+		C70C7F64250EE414007F2377 /* FeedMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4C250EE414007F2377 /* FeedMetaData.swift */; };
+		C70C7F65250EE414007F2377 /* PagingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4D250EE414007F2377 /* PagingData.swift */; };
+		C70C7F66250EE414007F2377 /* VideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4E250EE414007F2377 /* VideoStream.swift */; };
+		C70C7F67250EE414007F2377 /* PublicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4F250EE414007F2377 /* PublicationData.swift */; };
+		C70C7F68250EE414007F2377 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F50250EE414007F2377 /* Sections.swift */; };
+		C70C7F69250EE414007F2377 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F52250EE414007F2377 /* PageControl.swift */; };
+		C70C7F6A250EE414007F2377 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F53250EE414007F2377 /* PageViewController.swift */; };
+		C70C7F75250EE4E8007F2377 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F72250EE4E8007F2377 /* VideoRow.swift */; };
+		C70C7F79250EE565007F2377 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F78250EE565007F2377 /* WebService.swift */; };
+		C70C7F7D250EE819007F2377 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F73250EE4E8007F2377 /* TabbedView.swift */; };
+		C70C7F7E250EE81B007F2377 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F74250EE4E8007F2377 /* VideoItem.swift */; };
+		C70C7F80250EE8F3007F2377 /* VideoStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F7F250EE8F3007F2377 /* VideoStreamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +53,6 @@
 
 /* Begin PBXFileReference section */
 		C70C7EEC250E7A81007F2377 /* VideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C70C7EEF250E7A81007F2377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C70C7EF1250E7A81007F2377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C70C7EF3250E7A81007F2377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C70C7EF5250E7A82007F2377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70C7EF8250E7A82007F2377 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C70C7EFB250E7A82007F2377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,25 @@
 		C70C7F0D250E7A83007F2377 /* VideoStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70C7F11250E7A83007F2377 /* VideoStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStreamUITests.swift; sourceTree = "<group>"; };
 		C70C7F13250E7A83007F2377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70C7F40250EE414007F2377 /* VideoStreamViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoStreamViewModel.swift; path = ../View/VideoStreamViewModel.swift; sourceTree = "<group>"; };
+		C70C7F41250EE414007F2377 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		C70C7F43250EE414007F2377 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C70C7F44250EE414007F2377 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C70C7F46250EE414007F2377 /* MetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaData.swift; sourceTree = "<group>"; };
+		C70C7F47250EE414007F2377 /* MediaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaData.swift; sourceTree = "<group>"; };
+		C70C7F48250EE414007F2377 /* ItemData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		C70C7F4C250EE414007F2377 /* FeedMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedMetaData.swift; sourceTree = "<group>"; };
+		C70C7F4D250EE414007F2377 /* PagingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingData.swift; sourceTree = "<group>"; };
+		C70C7F4E250EE414007F2377 /* VideoStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStream.swift; sourceTree = "<group>"; };
+		C70C7F4F250EE414007F2377 /* PublicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicationData.swift; sourceTree = "<group>"; };
+		C70C7F50250EE414007F2377 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		C70C7F52250EE414007F2377 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		C70C7F53250EE414007F2377 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C70C7F72250EE4E8007F2377 /* VideoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
+		C70C7F73250EE4E8007F2377 /* TabbedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
+		C70C7F74250EE4E8007F2377 /* VideoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
+		C70C7F78250EE565007F2377 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebService.swift; path = ../Model/WebService.swift; sourceTree = "<group>"; };
+		C70C7F7F250EE8F3007F2377 /* VideoStreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStreamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70C7F21250E7B52007F2377 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +133,12 @@
 		C70C7EEE250E7A81007F2377 /* VideoStream */ = {
 			isa = PBXGroup;
 			children = (
-				C70C7EEF250E7A81007F2377 /* AppDelegate.swift */,
-				C70C7EF1250E7A81007F2377 /* SceneDelegate.swift */,
-				C70C7EF3250E7A81007F2377 /* ContentView.swift */,
+				C70C7F45250EE414007F2377 /* Model */,
+				C70C7F51250EE414007F2377 /* UIKit View */,
+				C70C7F39250EE414007F2377 /* View */,
+				C70C7F7A250EE5AC007F2377 /* Service */,
+				C70C7F6B250EE436007F2377 /* View Model */,
+				C70C7F42250EE414007F2377 /* Supporting Files */,
 				C70C7EF5250E7A82007F2377 /* Assets.xcassets */,
 				C70C7EFA250E7A82007F2377 /* LaunchScreen.storyboard */,
 				C70C7EFD250E7A82007F2377 /* Info.plist */,
@@ -136,6 +173,67 @@
 			path = VideoStreamUITests;
 			sourceTree = "<group>";
 		};
+		C70C7F39250EE414007F2377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7F73250EE4E8007F2377 /* TabbedView.swift */,
+				C70C7F7F250EE8F3007F2377 /* VideoStreamView.swift */,
+				C70C7F72250EE4E8007F2377 /* VideoRow.swift */,
+				C70C7F74250EE4E8007F2377 /* VideoItem.swift */,
+				C70C7F41250EE414007F2377 /* PageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C70C7F42250EE414007F2377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7F43250EE414007F2377 /* AppDelegate.swift */,
+				C70C7F44250EE414007F2377 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C70C7F45250EE414007F2377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7F46250EE414007F2377 /* MetaData.swift */,
+				C70C7F47250EE414007F2377 /* MediaData.swift */,
+				C70C7F48250EE414007F2377 /* ItemData.swift */,
+				C70C7F4C250EE414007F2377 /* FeedMetaData.swift */,
+				C70C7F4D250EE414007F2377 /* PagingData.swift */,
+				C70C7F4E250EE414007F2377 /* VideoStream.swift */,
+				C70C7F4F250EE414007F2377 /* PublicationData.swift */,
+				C70C7F50250EE414007F2377 /* Sections.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C70C7F51250EE414007F2377 /* UIKit View */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7F52250EE414007F2377 /* PageControl.swift */,
+				C70C7F53250EE414007F2377 /* PageViewController.swift */,
+			);
+			path = "UIKit View";
+			sourceTree = "<group>";
+		};
+		C70C7F6B250EE436007F2377 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7F40250EE414007F2377 /* VideoStreamViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		C70C7F7A250EE5AC007F2377 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C70C7F78250EE565007F2377 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +250,9 @@
 			dependencies = (
 			);
 			name = VideoStream;
+			packageProductDependencies = (
+				C70C7F20250E7B52007F2377 /* KingfisherSwiftUI */,
+			);
 			productName = VideoStream;
 			productReference = C70C7EEC250E7A81007F2377 /* VideoStream.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +324,9 @@
 				Base,
 			);
 			mainGroup = C70C7EE3250E7A80007F2377;
+			packageReferences = (
+				C70C7F1F250E7B51007F2377 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C70C7EED250E7A81007F2377 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,9 +370,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70C7EF0250E7A81007F2377 /* AppDelegate.swift in Sources */,
-				C70C7EF2250E7A81007F2377 /* SceneDelegate.swift in Sources */,
-				C70C7EF4250E7A81007F2377 /* ContentView.swift in Sources */,
+				C70C7F5A250EE414007F2377 /* VideoStreamViewModel.swift in Sources */,
+				C70C7F7E250EE81B007F2377 /* VideoItem.swift in Sources */,
+				C70C7F64250EE414007F2377 /* FeedMetaData.swift in Sources */,
+				C70C7F75250EE4E8007F2377 /* VideoRow.swift in Sources */,
+				C70C7F5E250EE414007F2377 /* MetaData.swift in Sources */,
+				C70C7F7D250EE819007F2377 /* TabbedView.swift in Sources */,
+				C70C7F68250EE414007F2377 /* Sections.swift in Sources */,
+				C70C7F5B250EE414007F2377 /* PageView.swift in Sources */,
+				C70C7F79250EE565007F2377 /* WebService.swift in Sources */,
+				C70C7F69250EE414007F2377 /* PageControl.swift in Sources */,
+				C70C7F5F250EE414007F2377 /* MediaData.swift in Sources */,
+				C70C7F5C250EE414007F2377 /* AppDelegate.swift in Sources */,
+				C70C7F65250EE414007F2377 /* PagingData.swift in Sources */,
+				C70C7F80250EE8F3007F2377 /* VideoStreamView.swift in Sources */,
+				C70C7F6A250EE414007F2377 /* PageViewController.swift in Sources */,
+				C70C7F5D250EE414007F2377 /* SceneDelegate.swift in Sources */,
+				C70C7F67250EE414007F2377 /* PublicationData.swift in Sources */,
+				C70C7F60250EE414007F2377 /* ItemData.swift in Sources */,
+				C70C7F66250EE414007F2377 /* VideoStream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +717,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C70C7F1F250E7B51007F2377 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C70C7F20250E7B52007F2377 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C70C7F1F250E7B51007F2377 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C70C7EE4250E7A80007F2377 /* Project object */;
 }
